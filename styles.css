@@ -7,8 +7,8 @@
 }
 
 body {
-    background-color: #BF0200;
-    color: white;
+    background-color: #c18f8e;
+    color: rgb(82, 12, 12);
     font-family: 'Jersey 10';
 }
 
@@ -50,8 +50,8 @@ body {
     font-size: 40px;
     color: white;
     padding: 8px 40px;
-    background-color: #BF0200;
-    border: 4px solid white;
+    background-color: #70302f;
+    border: 4px solid rgb(194, 241, 243);
     border-radius: 10px;
     box-shadow: 2px 2px 4px #222;
 }
@@ -104,9 +104,9 @@ body {
 .setTaskDiv #set-timer-btn {
     font-family: 'Jersey 10';
     font-size: 40px;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 8px 40px;
-    background-color: #BF0200;
+    background-color: #6d2120;
     border: 4px solid white;
     border-radius: 10px;
     box-shadow: 2px 2px 4px #222;
@@ -192,7 +192,7 @@ body {
     font-size: 40px;
     color: white;
     padding: 8px 40px;
-    background-color: #BF0200;
+    background-color: #50180e;
     border: 4px solid white;
     border-radius: 10px;
     box-shadow: 2px 2px 4px #222;

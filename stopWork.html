@@ -9,7 +9,7 @@
   <body>
     <div class="stopWorkDiv">
       <audio
-        src="./assets/clock_alarm.wav"
+        src="./asset/clock_alarm.wav"
         autoplay
         style="display: none"
       ></audio>
@@ -20,19 +20,20 @@
     </div>
 
     <script>
-      const taskValue =
-        localStorage.getItem("taskValue") || "No task available";
-      const displayTask = document.getElementById("task");
+  const taskValue =
+    localStorage.getItem("taskValue") || "No task available";
 
-      if (displayTask) {
-        displayTask.textContent = taskValue;
-      }
+  const displayTask = document.getElementById("task");
 
-      document
-        .getElementById("start-break-btn")
-        .addEventListener("click", () => {
-          window.electronAPI.loadPage("startBreak.html");
-        });
-    </script>
+  if (displayTask) {
+    displayTask.textContent = taskValue;
+  }
+
+  document
+    .getElementById("start-break-btn")
+    .addEventListener("click", () => {
+      window.location.href = "./startBreak.html";
+    });
+</script>
   </body>
 </html>
